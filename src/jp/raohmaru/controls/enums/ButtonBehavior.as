@@ -1,18 +1,4 @@
-Raohmaru Controls
-=================
-
-A collection of User Interface controls written in pure ActionScript 3.0 for Flash.<br>
-They are designed to be visually customizable in the Flash IDE.
-
-Download binary files @GoogleCode: <http://code.google.com/p/raohmaru-toolkit/>
-
-Released under the MIT License.
-
----------------------------------------
-
-LICENSE
--------
-
+/*
 Copyright (c) 2012 Raohmaru
 
 Permission is hereby granted, free of charge, to any person obtaining
@@ -32,3 +18,26 @@ THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 IN THE SOFTWARE.
+*/
+
+package jp.raohmaru.controls.enums 
+{
+
+/**
+ * La clase ButtonBehavior define el tipo de comportamiento para los botones de los controles.
+ * @author raohmaru
+ * @version 1.0
+ */
+public class ButtonBehavior 
+{
+	/**
+	 * Define que los botones reaccionarán a los eventos del tipo <code>MouseEvent.MOUSE_UP</code> y <code>MouseEvent.MOUSE_DOWN</code>.
+	 */
+	public static const PRESS : String = "button_press";
+	
+	/**
+	 * Define que los botones reaccionarán a los eventos del tipo <code>MouseEvent.MOUSE_OVER</code> y <code>MouseEvent.MOUSE_OUT</code>.
+	 */
+	public static const ROLL : String = "button_roll";
+}
+}

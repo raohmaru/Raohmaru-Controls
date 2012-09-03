@@ -1,9 +1,13 @@
 # Build and Release Folders
 bin-debug/
 bin-release/
+docs/
+test/
 
 # Project property files
 .actionScriptProperties
-.flexProperties
+.flexLibProperties
 .settings/
 .project
+*.bat
+fla/

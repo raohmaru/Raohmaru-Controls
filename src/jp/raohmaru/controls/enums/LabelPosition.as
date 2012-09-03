@@ -1,18 +1,4 @@
-Raohmaru Controls
-=================
-
-A collection of User Interface controls written in pure ActionScript 3.0 for Flash.<br>
-They are designed to be visually customizable in the Flash IDE.
-
-Download binary files @GoogleCode: <http://code.google.com/p/raohmaru-toolkit/>
-
-Released under the MIT License.
-
----------------------------------------
-
-LICENSE
--------
-
+/*
 Copyright (c) 2012 Raohmaru
 
 Permission is hereby granted, free of charge, to any person obtaining
@@ -32,3 +18,26 @@ THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 IN THE SOFTWARE.
+*/
+
+package jp.raohmaru.controls.enums
+{
+/**
+ * La clase LabelPosition es una enumeración de valores constantes empleados al establecer la propiedad <code>labelPosition</code> de la clase <code>CheckBox</code>.
+ * @see CheckBox#labelPosition
+ * @author raohmaru
+ * @version 1.0
+ */
+public class LabelPosition
+{
+	/**
+	 * Especifica que el campo de texto se situará a la izquierda del control.
+	 */
+	public static const LEFT :String = "left";
+	
+	/**
+	 * Especifica que el campo de texto se situará a la derecha del control.
+	 */
+	public static const RIGHT :String = "right";
+}
+}

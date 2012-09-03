@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<project name="Raohmaru Controls" default="main" basedir=".">
+
+	<property name="FLEX_HOME" location="C:\Program Files\Desarrollo\Adobe Flash Builder\Adobe Flash Builder 4.6\sdks\4.6.0"/>
+
+	<taskdef resource="flexTasks.tasks" classpath="${FLEX_HOME}\ant\lib\flexTasks.jar" />
+		
+	<target name="main" depends="clean, doc" description="Clean build of ${ant.project.name} documentation">
+	</target>
+
+	<target name="doc" depends="clean" description="Generate ASDoc HTML documentation">
+
+		<echo message="Compiling ASDoc for ${ant.project.name}"/>
+		
+		<!-- Call asdoc to generate HTML files -->
+		<asdoc output="${basedir}/docs/html" lenient="true" failonerror="true" fork="true" main-title="${ant.project.name}" window-title="${ant.project.name}" footer="http://raohmaru.com">
+		    <compiler.source-path path-element="${basedir}/src"/>
+			<doc-sources path-element="${basedir}/src"/>
+			<templates-path>${basedir}/docs/template</templates-path>
+			<package-description-file>${basedir}/docs/package-description.xml</package-description-file>
+		</asdoc>
+	</target>
+
+	<target name="clean">
+		<delete dir="${basedir}/docs/html" failonerror="false" includeEmptyDirs="true"/>
+	</target>
+
+</project>
+
+
