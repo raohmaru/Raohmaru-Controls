@@ -50,7 +50,6 @@ public class ComboBox extends Control
 				_row_count :uint,
 				_selected_index :int = -1,
 				_prompt :String = "",
-				_open_delay :Number = .2,
 				
 				// Props
 				_item_h :Number,
@@ -188,15 +187,6 @@ public class ComboBox extends Control
 		}
 		
 		if(founded)	selectedIndex = i;
-	}
-
-	public function get openDelay() :Number
-	{
-		return _open_delay;
-	}	
-	public function set openDelay(value :Number) :void
-	{
-		_open_delay = value;
 	}
 	
 	/**
