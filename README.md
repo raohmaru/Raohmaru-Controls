@@ -2,9 +2,10 @@ Raohmaru Controls
 =================
 
 A collection of User Interface controls written in pure ActionScript 3.0 for Flash.<br>
-They are designed to be visually customizable in the Flash IDE.
+This controls are designed to be visually customizable in the Flash IDE.
 
-Source code and Project home: <https://github.com/raohmaru/Raohmaru-Controls>  
+Source code and Project home: <https://github.com/raohmaru/Raohmaru-Controls>
+Downloads at GoogleDrive: <http://goo.gl/aDZEgF>
 Documentation: <http://raohmaru.com/lab/actionscript/raohmaru-controls/docs/>
 
 Released under the MIT License.
