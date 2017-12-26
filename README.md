@@ -6,7 +6,7 @@ This controls are designed to be visually customizable in the Flash IDE.
 
 Source code and Project home: <https://github.com/raohmaru/Raohmaru-Controls>
 Downloads at GoogleDrive: <http://goo.gl/aDZEgF>
-Documentation: <http://raohmaru.com/lab/actionscript/raohmaru-controls/docs/>
+Documentation: <https://raohmaru.com/lab/actionscript/raohmaru-controls/docs/>
 
 Released under the MIT License.
 
